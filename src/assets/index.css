@@ -1,0 +1,39 @@
+#boardForm, #iterationForm {
+  padding: 16px;
+}
+
+.board {
+  margin: 20px 20px 32px;
+  width: fit-content;
+}
+
+.cell {
+  border: black solid 1px;
+  min-width: 25px;
+  min-height: 25px;
+  text-align: center;
+  display: block;
+  user-select: none;
+  position: relative;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  margin: -1px;
+}
+
+.row {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.col {
+  padding: 0 8px;
+}
+
+label, input, button {
+  margin: 3px ;
+}
